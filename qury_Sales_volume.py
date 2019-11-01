@@ -365,7 +365,7 @@ def querySaleMoneyByArea(tableData, date):
     for i in range(len(tableData)):
         if tableData[0]['area_name'] == "全部区域":
             # sql语句 -- 长字符串
-            sql = moneySqlP
+            sql = moneySqlC
             newsql = sql.format(date[0], date[-1], tableData[i]['city_name'])
         else:
             sql = moneySqlA
@@ -477,7 +477,10 @@ def queryAllOilsNum(tableData,date):
 
 
 if __name__ == "__main__":
-    all_data = {"code":"0","msg":"","data":{"totalData":11,"tableData":[{"area_name":"六合区","city_name":"南京市","oil_num":7560.0,"sale_money":2109.68,"sale_amount":2160.74},{"area_name":"下关区","city_name":"南京市","oil_num":5040.0,"sale_money":1417.03,"sale_amount":1451.79},{"area_name":"秦淮区","city_name":"南京市","oil_num":5040.0,"sale_money":1407.61,"sale_amount":1441.66},{"area_name":"高淳县","city_name":"南京市","oil_num":5040.0,"sale_money":1411.92,"sale_amount":1445.68},{"area_name":"建邺区","city_name":"南京市","oil_num":5040.0,"sale_money":1493.66,"sale_amount":1442.74},{"area_name":"浦口区","city_name":"南京市","oil_num":5040.0,"sale_money":1414.54,"sale_amount":1448.97},{"area_name":"白下区","city_name":"南京市","oil_num":2520.0,"sale_money":703.31,"sale_amount":719.82},{"area_name":"雨花台","city_name":"南京市","oil_num":2520.0,"sale_money":703.53,"sale_amount":720.34},{"area_name":"溧水县","city_name":"南京市","oil_num":2520.0,"sale_money":702.39,"sale_amount":719.39},{"area_name":"鼓楼区","city_name":"南京市","oil_num":2520.0,"sale_money":701.71,"sale_amount":718.28},{"area_name":"玄武区","city_name":"南京市","oil_num":2520.0,"sale_money":703.72,"sale_amount":720.79}],"saleStatistics":{"saleAmount":12990.21,"saleMoney":12769.1,"oilsNum":45360.0},"saleInfo":[{"saleAmount":3795.44,"saleMoney":3706.64,"oilsNum":"13284","key":"201906"},{"saleAmount":4212.26,"saleMoney":4113.01,"oilsNum":"14688","key":"201907"},{"saleAmount":2885.89,"saleMoney":2902.4,"oilsNum":"10044","key":"201908"},{"saleAmount":2096.62,"saleMoney":2047.05,"oilsNum":"7344","key":"201909"}]}}
+    # 江苏省的数据 常州数据少0.01是应为sql统计时进行了计算，结果自动四舍五入引起，去掉/1000000验证就ok了
+    # all_data = {"code":"0","msg":"","data":{"totalData":13,"tableData":[{"area_name":"全部区域","city_name":"宿迁市","oil_num":7974.0,"sale_money":2227.78,"sale_amount":2281.02},{"area_name":"全部区域","city_name":"盐城市","oil_num":2520.0,"sale_money":708.9,"sale_amount":726.05},{"area_name":"全部区域","city_name":"南京市","oil_num":2052.0,"sale_money":572.41,"sale_amount":586.06},{"area_name":"全部区域","city_name":"淮安市","oil_num":1890.0,"sale_money":528.88,"sale_amount":541.32},{"area_name":"全部区域","city_name":"徐州市","oil_num":1368.0,"sale_money":382.17,"sale_amount":391.26},{"area_name":"全部区域","city_name":"南通市","oil_num":1008.0,"sale_money":279.74,"sale_amount":286.31},{"area_name":"全部区域","city_name":"扬州市","oil_num":882.0,"sale_money":246.55,"sale_amount":252.37},{"area_name":"全部区域","city_name":"连云港市","oil_num":882.0,"sale_money":247.69,"sale_amount":253.49},{"area_name":"全部区域","city_name":"常州市","oil_num":861.0,"sale_money":241.54,"sale_amount":247.26},{"area_name":"全部区域","city_name":"镇江市","oil_num":756.0,"sale_money":211.53,"sale_amount":216.54},{"area_name":"全部区域","city_name":"无锡市","oil_num":684.0,"sale_money":190.55,"sale_amount":195.18},{"area_name":"全部区域","city_name":"苏州市","oil_num":756.0,"sale_money":211.82,"sale_amount":217.03},{"area_name":"全部区域","city_name":"泰州市","oil_num":504.0,"sale_money":139.14,"sale_amount":142.51}],"saleStatistics":{"saleAmount":6336.4,"saleMoney":6188.72,"oilsNum":22137.0},"saleInfo":[{"saleAmount":952.08,"saleMoney":929.96,"oilsNum":"3330","key":"20190926"},{"saleAmount":958.69,"saleMoney":936.15,"oilsNum":"3330","key":"20190927"},{"saleAmount":949.72,"saleMoney":927.46,"oilsNum":"3330","key":"20190928"},{"saleAmount":952.09,"saleMoney":929.68,"oilsNum":"3330","key":"20190929"},{"saleAmount":956.84,"saleMoney":934.74,"oilsNum":"3330","key":"20190930"},{"saleAmount":318.84,"saleMoney":311.32,"oilsNum":"1110","key":"20191022"},{"saleAmount":317.44,"saleMoney":310.03,"oilsNum":"1110","key":"20191023"},{"saleAmount":314.79,"saleMoney":307.44,"oilsNum":"1110","key":"20191024"},{"saleAmount":615.91,"saleMoney":601.96,"oilsNum":"2157","key":"20191025"}]}}
+    # 扬州市数据
+    all_data = {"code":"0","msg":"","data":{"totalData":3,"tableData":[{"area_name":"广陵区","city_name":"扬州市","oil_num":384.0,"sale_money":105.56,"sale_amount":108.22},{"area_name":"邗江区","city_name":"扬州市","oil_num":192.0,"sale_money":52.12,"sale_amount":53.32},{"area_name":"宝应县","city_name":"扬州市","oil_num":96.0,"sale_money":26.39,"sale_amount":26.94}],"saleStatistics":{"saleAmount":188.48,"saleMoney":184.07,"oilsNum":672.0},"saleInfo":[{"saleAmount":12.33,"saleMoney":12.03,"oilsNum":"42","key":"20191022"},{"saleAmount":11.29,"saleMoney":10.99,"oilsNum":"42","key":"20191023"},{"saleAmount":11.56,"saleMoney":11.31,"oilsNum":"42","key":"20191024"},{"saleAmount":35.2,"saleMoney":34.46,"oilsNum":"126","key":"20191025"},{"saleAmount":35.69,"saleMoney":34.87,"oilsNum":"126","key":"20191026"},{"saleAmount":34.62,"saleMoney":33.84,"oilsNum":"126","key":"20191027"},{"saleAmount":47.8,"saleMoney":46.56,"oilsNum":"168","key":"20191028"}]}}
 
 
     saleInfo = all_data["data"]["saleInfo"]
@@ -493,9 +496,10 @@ if __name__ == "__main__":
         if saleMoney == saleStatistics["saleMoney"]:
             print("销售总金额测试通过")
         else:
+            print("###测试不通过，请查看原因")
             print("saleStatistics：{}".format(saleStatistics))
-    except:
-        print("###销售总金额测试过程中代码出现了问题，请检查。。。")
+    except Exception as e:
+        print("###销售总金额测试过程中代码出现了问题，请检查。。。\n{}".format(e))
 
     try:
         print("===总销量数据正确性验证开始")
@@ -503,19 +507,21 @@ if __name__ == "__main__":
         if saleAmount == saleStatistics["saleAmount"]:
             print("总销量测试通过")
         else:
+            print("###测试不通过，请查看原因")
             print("saleStatistics：{}".format(saleStatistics))
-    except:
-        print("###总销量测试过程中代码出现了问题，请检查。。。")
+    except Exception as e:
+        print("###总销量测试过程中代码出现了问题，请检查。。。\n".format(e))
 
     try:
         print("===加油总笔数数据正确性验证开始")
         oilsNum = queryAllOilsNum(tableData,date)
-        if oilsNum == saleStatistics["oilsNum"]:
+        if oilsNum == str(int(saleStatistics["oilsNum"])):
             print("加油总笔数测试通过")
         else:
+            print("###测试不通过，请查看原因")
             print("saleStatistics：{}".format(saleStatistics))
-    except:
-        print("###加油总笔数测试过程中代码出现了问题，请检查。。。")
+    except Exception as e:
+        print("###加油总笔数测试过程中代码出现了问题，请检查。。。\n{}".format(e))
 
     # 页面数据处理 销售数据
     allSaleAmount, allSaleMoney, allOilsNum = interfacedata.webSaleInfo(saleInfo)
@@ -527,10 +533,11 @@ if __name__ == "__main__":
         if allSaleMoney_q == allSaleMoney:
             print("销售额测试通过")
         else:
+            print("###测试不通过，请查看原因")
             print("allSaleMoney_q: {}".format(allSaleMoney_q))
             print("allSaleMoney: {}".format(allSaleMoney))
-    except:
-        print("###销售额测试过程中出现问题了，请检查。。。")
+    except Exception as e:
+        print("###销售额测试过程中出现问题了，请检查。。。\n{}".format(e))
 
     try:
         print("===油品销量数据正确性验证开始===")
@@ -539,10 +546,11 @@ if __name__ == "__main__":
         if allSaleAmount_q == allSaleAmount:
             print("油品销量测试通过")
         else:
+            print("###测试不通过，请查看原因")
             print("allSaleAmount_q: {}".format(allSaleAmount_q))
             print("allSaleAmount: {}".format(allSaleAmount))
-    except:
-        print("###油品销量测试过程代码出问题了，请检查。。。")
+    except Exception as e:
+        print("###油品销量测试过程代码出问题了，请检查。。。\n{}".format(e))
 
     try:
         print("===加油笔数数据正确性验证开始===")
@@ -551,10 +559,11 @@ if __name__ == "__main__":
         if allOilsNum_q == allOilsNum:
             print("加油笔数测试通过")
         else:
+            print("###测试不通过，请查看原因")
             print("allOilsNum_q: {}".format(allOilsNum_q))
             print("allOilsNum: {}".format(allOilsNum))
-    except:
-        print("###加油笔数测试过程中代码出问题了，请检查。。。")
+    except Exception as e:
+        print("###加油笔数测试过程中代码出问题了，请检查。。。\n{}".format(e))
 
     # 按区域查询数据测试开始，即表单数据验证
     print("*****开始验证表单数据*****")
@@ -568,10 +577,11 @@ if __name__ == "__main__":
         if areaSaleAmount_q == areaSaleAmount:
             print("表单销量测试通过")
         else:
+            print("###测试不通过，请查看原因")
             print("areaSaleAmount_q: {}".format(areaSaleAmount_q))
             print("areaSaleAmount: {}".format(areaSaleAmount))
-    except:
-        print("###表单销量测试过程中代码出现问题，请检查。。。")
+    except Exception as e:
+        print("###表单销量测试过程中代码出现问题，请检查。。。\n{}".format(e))
 
     try:
         print("===表单销售额数据正确性验证开始===")
@@ -580,10 +590,11 @@ if __name__ == "__main__":
         if areaSaleMoney_q == areaSaleMoney:
             print("表单销售额测试通过")
         else:
+            print("###测试不通过，请查看原因")
             print("areaSaleMoney_q: {}".format(areaSaleMoney_q))
             print("areaSaleMoney: {}".format(areaSaleMoney))
-    except:
-        print("###表单销售额测试过程中代码出现了问题，请检查。。。")
+    except Exception as e:
+        print("###表单销售额测试过程中代码出现了问题，请检查。。。\n{}".format(e))
 
     try:
         print("===表单加油笔数数据正确性验证开始===")
@@ -592,7 +603,8 @@ if __name__ == "__main__":
         if areaOilsNum_q == areaOilsNum:
             print("表单加油笔数测试通过")
         else:
+            print("###测试不通过，请查看原因")
             print("areaOilsNum_q: {}".format(areaOilsNum_q))
             print("areaOilsNum: {}".format(areaOilsNum))
-    except:
-        print("###表单加油笔数测试过程中代码出现了问题，请检查。。。")
+    except Exception as e:
+        print("###表单加油笔数测试过程中代码出现了问题，请检查。。。\n{}".format(e))
