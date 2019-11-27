@@ -2,15 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b377f62f-23d6-4dd4-8920-0679c37db56e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/AutoVersionRrelease.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DingDingAutoSend/Demo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DingDingAutoSend/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ctiy_sale_big_screen.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jenkins_Demo/Demo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jenkins_Demo/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/verifycode/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/verifycode/verfiy_code_demo.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qury_Sales_volume.py" beforeDir="false" afterPath="$PROJECT_DIR$/qury_Sales_volume.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/刷单/config.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/刷单/goods.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/刷单/goods_bak.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/刷单/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/刷单/operation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AutoVersionRelease.py" beforeDir="false" afterPath="$PROJECT_DIR$/AutoVersionRelease.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DingDingAutoSend/Demo.py" beforeDir="false" afterPath="$PROJECT_DIR$/DingDingAutoSend/Demo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins_Demo/Demo.py" beforeDir="false" afterPath="$PROJECT_DIR$/jenkins_Demo/Demo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/刷单/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/刷单/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/刷单/testsuning.py" beforeDir="false" afterPath="$PROJECT_DIR$/刷单/testsuning.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,10 +26,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test.py">
+        <entry file="file://$PROJECT_DIR$/刷单/testsuning.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="31" selection-start-line="31" selection-end-line="31" />
+            <state relative-caret-position="199">
+              <caret line="405" column="159" selection-start-line="405" selection-start-column="22" selection-end-line="405" selection-end-column="159" />
               <folding>
                 <element signature="e#14#25#0" expanded="true" />
               </folding>
@@ -36,67 +38,67 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/qury_Sales_volume.py">
+        <entry file="file://$PROJECT_DIR$/刷单/goods_bak.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="9120">
-              <caret line="482" column="939" selection-start-line="482" selection-start-column="939" selection-end-line="482" selection-end-column="939" />
+            <state relative-caret-position="424">
+              <caret line="215" column="146" selection-start-line="215" selection-start-column="146" selection-end-line="215" selection-end-column="146" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/刷单/test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="15" column="52" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="52" />
               <folding>
-                <element signature="e#14#28#0" expanded="true" />
+                <element signature="e#14#25#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DingDingAutoSend/Demo.py">
+        <entry file="file://$PROJECT_DIR$/刷单/goods.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="27" column="14" selection-start-line="27" selection-start-column="6" selection-end-line="27" selection-end-column="14" />
+            <state relative-caret-position="150">
+              <caret line="6" column="17" lean-forward="true" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
               <folding>
-                <element signature="e#14#29#0" expanded="true" />
+                <element signature="e#14#25#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/刷单/main.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="125">
+              <caret line="5" column="19" lean-forward="true" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+              <folding>
+                <element signature="e#14#39#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/AutoVersionRrelease.py">
+        <entry file="file://$PROJECT_DIR$/刷单/operation.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="139">
-              <caret line="82" lean-forward="true" selection-start-line="82" selection-end-line="82" />
+            <state relative-caret-position="174">
+              <caret line="14" column="6" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
               <folding>
-                <element signature="e#14#35#0" expanded="true" />
+                <element signature="e#14#25#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://D:/program/Anaconda3/Lib/json/__init__.py">
+        <entry file="file://$PROJECT_DIR$/刷单/config.yaml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="251">
-              <caret line="230" selection-start-line="230" selection-end-line="230" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://D:/program/Anaconda3/Lib/json/encoder.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="384">
-              <caret line="201" selection-start-line="201" selection-end-line="201" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jenkins_Demo/Demo.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="20" column="52" lean-forward="true" selection-start-line="20" selection-start-column="52" selection-end-line="20" selection-end-column="52" />
-              <folding>
-                <element signature="e#14#28#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="50">
+              <caret line="2" column="11" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -125,6 +127,10 @@
       <find>99</find>
       <find>res</find>
       <find>building</find>
+      <find>pay()</find>
+      <find>/html/body/div[7]/div/div/div[5]</find>
+      <find>/html/body/div[2]/div[4]/div/div/div[2]</find>
+      <find>/html/body/div[4]/div[2]/div/div[1]</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -141,9 +147,18 @@
         <option value="$PROJECT_DIR$/test.py" />
         <option value="$PROJECT_DIR$/qury_Sales_volume.py" />
         <option value="$PROJECT_DIR$/jenkins/Demo.py" />
-        <option value="$PROJECT_DIR$/jenkins_Demo/Demo.py" />
-        <option value="$PROJECT_DIR$/DingDingAutoSend/Demo.py" />
         <option value="$PROJECT_DIR$/AutoVersionRrelease.py" />
+        <option value="$PROJECT_DIR$/DingDingAutoSend/Demo.py" />
+        <option value="$PROJECT_DIR$/AutoVersionRelease.py" />
+        <option value="$PROJECT_DIR$/jenkins_Demo/Demo.py" />
+        <option value="$PROJECT_DIR$/刷单/login.py" />
+        <option value="$PROJECT_DIR$/刷单/test.py" />
+        <option value="$PROJECT_DIR$/刷单/config.yaml" />
+        <option value="$PROJECT_DIR$/刷单/testsuning.py" />
+        <option value="$PROJECT_DIR$/刷单/goods_bak.py" />
+        <option value="$PROJECT_DIR$/刷单/operation.py" />
+        <option value="$PROJECT_DIR$/刷单/main.py" />
+        <option value="$PROJECT_DIR$/刷单/goods.py" />
       </list>
     </option>
   </component>
@@ -161,6 +176,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -168,19 +184,24 @@
               <item name="hello-world" type="b2602c69:ProjectViewProjectNode" />
               <item name="hello-world" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="hello-world" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hello-world" type="462c0819:PsiDirectoryNode" />
+              <item name="刷单" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/pyinstaller/suning1127" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\GitHub\hello-world\刷单" />
       <recent name="F:\GitHub\hello-world" />
     </key>
   </component>
@@ -196,49 +217,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.AutoVersionRrelease">
-    <configuration name="AutoVersionRrelease" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="hello-world" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="F:\GitHub\hello-world\AutoVersionRelease.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Demo (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="hello-world" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/jenkins_Demo" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/jenkins_Demo/Demo.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.main">
     <configuration name="Demo" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="hello-world" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -260,7 +239,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="qury_Sales_volume" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="login" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="hello-world" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -268,11 +247,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/刷单" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/qury_Sales_volume.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/刷单/login.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -281,7 +260,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="hello-world" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -289,11 +268,53 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/刷单" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/刷单/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="hello-world" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/刷单" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/刷单/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="testsuning" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="hello-world" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/刷单" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/刷单/testsuning.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -304,11 +325,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.AutoVersionRrelease" />
+        <item itemvalue="Python.main" />
+        <item itemvalue="Python.testsuning" />
+        <item itemvalue="Python.test (1)" />
         <item itemvalue="Python.Demo" />
-        <item itemvalue="Python.Demo (1)" />
-        <item itemvalue="Python.qury_Sales_volume" />
-        <item itemvalue="Python.test" />
+        <item itemvalue="Python.login" />
       </list>
     </recent_temporary>
   </component>
@@ -326,15 +347,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.73362446" visible="true" weight="0.17913593" />
-      <window_info id="Structure" order="1" sideWeight="0.26637554" side_tool="true" visible="true" weight="0.17913593" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.7292359" visible="true" weight="0.12802951" />
+      <window_info id="Structure" order="1" sideWeight="0.2707641" side_tool="true" visible="true" weight="0.12802951" />
       <window_info id="Favorites" order="2" sideWeight="0.26375404" side_tool="true" weight="0.24973656" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.329718" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.5032538" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3470716" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3991323" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -361,20 +382,15 @@
           <line>28</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/DingDingAutoSend/Demo.py</url>
+          <line>6</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/.PyCharmCE2018.3/system/python_stubs/476420811/time.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="207" column="4" selection-start-line="207" selection-start-column="4" selection-end-line="207" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qury_Sales_volume_bakOk.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/styles.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -398,9 +414,6 @@
           <caret line="26" column="3" lean-forward="true" selection-start-line="26" selection-start-column="3" selection-end-line="26" selection-end-column="3" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/verifycode/verify_code.jpg">
-      <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/verifycode/verify_code.png">
       <provider selected="true" editor-type-id="images" />
@@ -440,19 +453,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/verifycode/verfiy_code_demo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3866">
-          <caret line="227" lean-forward="true" selection-start-line="227" selection-end-line="227" />
-          <folding>
-            <element signature="e#71#101#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="-8">
           <caret line="31" selection-start-line="31" selection-end-line="31" />
           <folding>
             <element signature="e#14#25#0" expanded="true" />
@@ -462,7 +465,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/qury_Sales_volume.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="9120">
+        <state>
           <caret line="482" column="939" selection-start-line="482" selection-start-column="939" selection-end-line="482" selection-end-column="939" />
           <folding>
             <element signature="e#14#28#0" expanded="true" />
@@ -487,46 +490,171 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jenkins_Demo/Demo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="20" column="52" lean-forward="true" selection-start-line="20" selection-start-column="52" selection-end-line="20" selection-end-column="52" />
-          <folding>
-            <element signature="e#14#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DingDingAutoSend/Demo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="27" column="14" selection-start-line="27" selection-start-column="6" selection-end-line="27" selection-end-column="14" />
-          <folding>
-            <element signature="e#14#29#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/qa-supervise-cloud.py" />
+    <entry file="file://$PROJECT_DIR$/verifycode/verify_code.jpg">
+      <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://D:/program/Anaconda3/Lib/json/encoder.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
+        <state relative-caret-position="25">
           <caret line="201" selection-start-line="201" selection-end-line="201" />
         </state>
       </provider>
     </entry>
     <entry file="file://D:/program/Anaconda3/Lib/json/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
+        <state relative-caret-position="25">
           <caret line="230" selection-start-line="230" selection-end-line="230" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AutoVersionRrelease.py">
+    <entry file="file://D:/program/Anaconda3/Lib/tkinter/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="82" lean-forward="true" selection-start-line="82" selection-end-line="82" />
+        <state relative-caret-position="49">
+          <caret line="2349" column="24" lean-forward="true" selection-start-line="2349" selection-start-column="24" selection-end-line="2349" selection-end-column="24" />
+          <folding>
+            <element signature="e#1088#1099#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jenkins_Demo/Demo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="14" column="13" lean-forward="true" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <folding>
+            <element signature="e#14#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/verifycode/verfiy_code_demo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="433">
+          <caret line="122" column="18" selection-start-line="122" selection-start-column="8" selection-end-line="122" selection-end-column="18" />
+          <folding>
+            <element signature="e#56#86#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/program/Anaconda3/Lib/site-packages/selenium/webdriver/common/action_chains.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="433">
+          <caret line="246" column="8" selection-start-line="246" selection-start-column="8" selection-end-line="246" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/program/Anaconda3/Lib/site-packages/selenium/webdriver/remote/webelement.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="433">
+          <caret line="528" column="8" selection-start-line="528" selection-start-column="8" selection-end-line="528" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AutoVersionRelease.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="433">
+          <caret line="38" column="14" selection-start-line="38" selection-start-column="14" selection-end-line="38" selection-end-column="14" />
           <folding>
             <element signature="e#14#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qury_Sales_volume_bakOk.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="95" column="32" selection-start-line="94" selection-start-column="8" selection-end-line="95" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/suning_auto_order/.idea/misc.xml" />
+    <entry file="file://$PROJECT_DIR$/suning_auto_order/main.py" />
+    <entry file="file://$USER_HOME$/.PyCharmCE2018.3/system/python_stubs/476420811/time.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="147" column="19" selection-start-line="147" selection-start-column="13" selection-end-line="147" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/刷单/login.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DingDingAutoSend/Demo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+          <folding>
+            <element signature="e#14#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/刷单/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="15" column="52" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="52" />
+          <folding>
+            <element signature="e#14#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/刷单/goods_bak.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="424">
+          <caret line="215" column="146" selection-start-line="215" selection-start-column="146" selection-end-line="215" selection-end-column="146" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/刷单/config.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="11" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/刷单/testsuning.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="405" column="159" selection-start-line="405" selection-start-column="22" selection-end-line="405" selection-end-column="159" />
+          <folding>
+            <element signature="e#14#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/刷单/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="19" lean-forward="true" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+          <folding>
+            <element signature="e#14#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/刷单/goods.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="17" lean-forward="true" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+          <folding>
+            <element signature="e#14#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/刷单/operation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="14" column="6" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
+          <folding>
+            <element signature="e#14#25#0" expanded="true" />
           </folding>
         </state>
       </provider>

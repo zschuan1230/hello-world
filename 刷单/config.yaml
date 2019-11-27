@@ -1,0 +1,21 @@
+parm:
+  # 浏览器页面高度,可以打开百度，元素选择body，查看下浏览去页面高度数据
+  bodyhight: 937
+  # x坐标系数 实际屏幕宽度/分辨率 例如：实际屏幕大小( window_size = driver.get_window_size()) {'width': 1936, 'height': 1056}  分辨率1920-1080 1920/1936
+  ratioX: 0.991
+  # y坐标系数 1080/1056
+  ratioY: 1.0227
+
+userInfo:
+  # 用户/密码设置
+  user: '13057523552'
+  pwd: 'qiujikai4971113'
+  # 付款密码 - 一定要是字符串格式 812418
+  password: ['8', '1', '2', '4', '1', '8']
+
+mysqlInfo:
+  # 数据库 相关设置
+  mysqlIp: '192.168.10.64'
+  mysqlUser: 'root'
+  mysqlPwd: 'tang123456'
+  mysqlDb: 'spcard'

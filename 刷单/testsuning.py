@@ -6,12 +6,16 @@ import pyautogui
 import pymysql
 import random
 import re
+from 刷单.goods_bak import Goods
 
 """
 
     账号 ：13057523552 密码：qiujikai4971113
     易付宝支付
     支付密码203479
+    
+    13151532980  / zyjnh861218
+    支付密码：812418
 """
 
 
@@ -22,10 +26,10 @@ ratioX = 0.991
 # y坐标系数 1080/1056
 ratioY = 1.0227
 # 用户/密码设置
-user = '13057523552'
-pwd = 'qiujikai4971113'
-# 付款密码 - 一定要是字符串格式
-password = ['2', '0', '3', '4', '7', '9']
+user = '13151532980'
+pwd = 'zyjnh861218'
+# 付款密码 - 一定要是字符串格式 812418
+password = ['8', '1', '2', '4', '1', '8']
 # 数据库 相关设置
 mysqlIp = '192.168.10.64'
 mysqlUser = 'root'
@@ -116,10 +120,6 @@ def log_out(driver):
     # 点击确定
     driver.find_element_by_xpath('//*[@id="alertBox_0"]/div[3]/a[2]').click()
     time.sleep(2)
-
-
-
-
 
 def get_track(distance):
     """
@@ -290,7 +290,7 @@ def pay():
         ele.click()
         time.sleep(5)
         # 鼠标移动第一个密码输入框上
-        pyautogui.moveTo(x=500, y=580, duration=1)
+        pyautogui.moveTo(x=500, y=590, duration=1)
         # 鼠标点击
         pyautogui.click()
         # 模拟输入密码
@@ -314,6 +314,9 @@ def pay():
 
     # UA切换为手机版本
     chang_UA(dis=72)
+    # 付完款返回易购登录页面
+    driver.get('https://m.suning.com/?utm_source=direct&utm_midium=direct&utm_content=&utm_campaign=&minip_origin=SNPG')
+    time.sleep(1.5)
 
 def chang_UA(dis=0):
     """
@@ -321,7 +324,7 @@ def chang_UA(dis=0):
     :param dis: dis=0切换到chrome-default模式；dis =72 切换到android-android kitkat模式
     :return:
     """
-    time.sleep(5)
+    time.sleep(1)
     # 鼠标移动插件控制按钮上，并点击
     pyautogui.moveTo(1820,50,duration=1)
     time.sleep(1)
@@ -398,8 +401,13 @@ def get_verification_code(time_pay,phonum):
 
 if __name__ == "__main__":
     driver = get_driver()
-    login(driver)
-    buy_something(driver)
+    # login(driver)
+    goods = Goods(driver)
+    # goods.buy_goods("11545562090","/html/body/div[4]/div[14]/div/div/div[2]/div[1]/div[2]/a[1]","/html/body/div[4]/div[14]/div/div/div[2]/div[2]/div[2]/a[1]")
+    # pay()
+    goods.buy_goods("10834176813")
+    # pay()
+    # buy_something(driver)
     # pay()
     # buy_something_gui(driver)
     # chang_UA(dis=72)

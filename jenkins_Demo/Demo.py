@@ -1,30 +1,28 @@
 #coding=utf-8
-import jenkins
+import pyautogui
 import time
-# url = 'http://jenkins.ysskj.com/view/%E4%BA%91%E5%B9%B3%E5%8F%B0-QA/'
-url = 'http://jenkins.ysskj.com/'
-jenkinsObject = jenkins.Jenkins(url=url, username='liyuan', password='liyuan')
-# job_info = jenkinsObject.get_job_info('qa-supervise-cloud')
-# print(job_info)
-#
-# build_info = jenkinsObject.get_build_info('qa-supervise-cloud', 31)
-#
-# print("*"*20)
-# print(build_info)
 
-# report_info = jenkinsObject.get_all_jobs()
-# print(report_info)
+s, h = pyautogui.size()
+print(s, h)
+time.sleep(10)
+pyautogui.moveTo(s/2,h/2)
 
-# jenkinsObject.build_job('qa-supervise-eeop')
-#
-# time.sleep(40)
-# runningObject = jenkinsObject.get_running_builds()
-# print(runningObject)
-
-
-# last_build_info = jenkinsObject.get_job_info('qa-supervise-eeop')
-# print(last_build_info)
-
-result = jenkinsObject.get_build_info('qa-yss-pay-consumer', 30)
-print(result)
+def drag(n):
+    pyautogui.dragRel(xOffset=n,yOffset=0,duration=1)
+    pyautogui.dragRel(xOffset=0,yOffset=n,duration=1)
+    pyautogui.dragRel(xOffset=-n,yOffset=0,duration=1)
+    pyautogui.dragRel(xOffset=0,yOffset=-n,duration=1)
+def dragy(n):
+    pyautogui.dragRel(xOffset=0,yOffset=-n,duration=1)
+    pyautogui.dragRel(xOffset=n,yOffset=0,duration=1)
+    pyautogui.dragRel(xOffset=0,yOffset=n,duration=1)
+    pyautogui.dragRel(xOffset=-n,yOffset=0,duration=1)
+# pyautogui.dragRel(xOffset=100,yOffset=100,duration=1)
+ls = [20,40,60,80,100,120,140,160,180]
+# ls = [20, 40]
+for n in ls:
+    drag(n)
+    drag(-n)
+    dragy(n)
+    dragy(-n)
 
