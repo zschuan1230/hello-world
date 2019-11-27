@@ -37,7 +37,7 @@ class AutoVersionRelease():
         # jenkins 的地址
         url = 'http://jenkins.ysskj.com/'
         # 工程名称
-        objectName = 'qa-supervise-eeop'
+        objectName = 'qa-supervise-cloud'
         # 创建jenkins对象
         jenkinsObject = jenkins.Jenkins(url=url, username='liyuan', password='liyuan')
         self.send_msg("测试：{}工程开始构建。".format(objectName))
@@ -74,6 +74,7 @@ class AutoVersionRelease():
                     break
             result = jenkinsObject.get_build_info(objectName,lastBuildNum)['result']
             if result == 'SUCCESS':
+                time.sleep(3)
                 self.send_msg("测试：{}工程构建成功，可以测试了".format(objectName))
             else:
                 self.send_msg("测试：工程{}构建失败，请查看原因:{}".format(objectName, url))
